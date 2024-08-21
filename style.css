@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  background-color: #E5E5E5;
+
+  display: flex;
+}
+
+header{
+  width: 120px;
+  margin: 40px 0 80px 40px;
+}
+
+main{
+  margin-top: 8%;
+}
+
+.main-container{
+  margin-left: 240px;
+  margin-right: 200px;
+  width: 50%;
+}
+
+.campo-texto{
+  width: 80%;
+  height: 65vh;
+}
+
+.area-texto{
+  width: 800px;
+  height: 500px;
+
+  background-color: #E5E5E5;
+
+  border: none;
+  outline: none;
+  resize: none;
+
+  color: #0A3871;
+  font-size: 32px;
+}
+
+.area-texto::placeholder{
+  color: #0A3871;
+}
+
+
+.main-regra{
+  display: flex;
+  gap: 2px;
+
+  margin-bottom: 16px;
+}
+
+main p{
+  font-size: 12px;
+  color: gray;
+}
+
+.imagem-regra{
+  width: 16px;
+  height: 16px;
+}
+
+.botao{
+  display: flex;
+  gap: 24px;
+}
+
+.cripto{
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+
+  font-size: 16px;
+  background-color: #0A3871;
+  color: #fff;
+
+  border: 1px solid #0A3871;
+}
+
+.descripto{
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+
+  font-size: 16px;
+  background-color: #D8DFE8;
+  color: #0A3871;
+
+  border: 1px solid #0A3871;
+}
+
+
+.aside{
+  background-color: #fff;
+
+  width: 400px;
+  height: 800px;
+  margin-top: 40px;
+
+  border-radius: 32px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0px 10px 10px 1px rgb(170, 170, 170);
+}
+
+.imagem-aside{
+  width: 80%;
+  height: 40%;
+
+  margin: 100px auto 50px auto;
+}
+
+.legenda-section{
+  width: 250px;
+  height: 122px;
+
+  text-align: center;
+
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.h2-aside{
+  color: #343A40;
+}
+
+.p-aside{
+  color: #495057;
+}

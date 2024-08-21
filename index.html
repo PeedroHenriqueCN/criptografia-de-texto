@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <title>Decodificador</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+
+  <header class="cabecalho">
+    <img src="/images/Vector.svg" alt="Logo da Alura">
+  </header>
+
+  <main>
+
+    <div class="main-container">
+      <div class="campo-texto">
+        <textarea name="input" id="input" class="area-texto" placeholder="Digite seu texto"></textarea>
+      </div>
+  
+      <div class="main-regra">
+        <img class="imagem-regra" src="/images/bi_exclamation-circle-fill.svg" alt="sinal de atenção">
+        <p>
+          Apenas letras minúsculas e sem acento.
+        </p>
+      </div>
+      
+  
+      <div class="botao">
+        <button id="criptografar" class="cripto" onclick="criptografarConteudo()">
+          Criptografar
+        </button>
+        
+        <button id="descriptografar" class="descripto" onclick="descriptografarConteudo()">
+          Descriptografar
+        </button>
+      </div>
+    </div>
+    
+    
+
+  </main>
+
+  <section id="output" class="aside">
+    
+    <img class="imagem-aside" src="/images/High quality products 1 1.svg" alt="Imagem de uma moça com lupa">
+
+    <div id="campo-mensagem" class="legenda-section">
+      <h2 class="h2-aside">
+        Nenhuma mensagem encontrada
+      </h2>
+      
+      <p class="p-aside">
+        Digite um texto que você deseja criptografar ou descriptografar.
+      </p>
+    
+    </div>
+
+  </section>
+  <script src="/script.js"></script>
+</body>
+</html>
